@@ -1,4 +1,11 @@
 'use strict';
+var expect = require('chai').expect
+const mongodb = require('mongodb')
+const mongoose = require('mongoose');
+const IssueModel = require("../models").Issue;
+const ProjectModel = require("../models").Project;
+
+
 
 module.exports = function (app) {
 
